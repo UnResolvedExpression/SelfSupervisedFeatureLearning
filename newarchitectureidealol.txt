@@ -1,0 +1,2 @@
+One NN generates images. NN two trains on those images in an autoencoder or SSRL fashion. The validation set for NN two, however, is imagenet.
+So then, why does NN two not just generate the images in the first place?

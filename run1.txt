@@ -1,0 +1,581 @@
+C:\Users\ghait\miniconda3\envs\dlenv\python.exe C:/Users/ghait/Repos/SSFLBaselineFromScratch/ssrlbase.py
+Begin ssrlbase
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 02:52:27.649101: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 02:52:27.996617: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 0: 100%|██████████| 34745/34745 [07:50<00:00, 73.85it/s, data=train, loss=0.0184, total_loss=tensor(0.0230, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 03:00:18.787838: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:00:19.143118: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 0: 100%|██████████| 3923/3923 [00:55<00:00, 70.98it/s, data=val, loss=0.00975, total_loss=tensor(0.0209, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 03:01:13.530489: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:01:13.907421: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 1: 100%|██████████| 34745/34745 [07:48<00:00, 74.22it/s, data=train, loss=0.019, total_loss=tensor(0.0201, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 03:09:02.510945: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:09:02.875779: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 1: 100%|██████████| 3923/3923 [00:54<00:00, 71.74it/s, data=val, loss=0.0193, total_loss=tensor(0.0203, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 03:09:56.446787: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:09:56.827950: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 2: 100%|██████████| 34745/34745 [07:50<00:00, 73.92it/s, data=train, loss=0.0136, total_loss=tensor(0.0194, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 03:17:47.238791: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:17:47.615762: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 2: 100%|██████████| 3923/3923 [00:55<00:00, 70.15it/s, data=val, loss=0.0185, total_loss=tensor(0.0201, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 03:18:42.462256: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:18:42.827895: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 3: 100%|██████████| 34745/34745 [07:45<00:00, 74.58it/s, data=train, loss=0.00969, total_loss=tensor(0.0192, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 03:26:29.607019: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:26:30.067432: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 3: 100%|██████████| 3923/3923 [00:58<00:00, 67.62it/s, data=val, loss=0.0319, total_loss=tensor(0.0193, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 03:27:26.471735: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:27:26.848826: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 4: 100%|██████████| 34745/34745 [06:54<00:00, 83.77it/s, data=train, loss=0.0187, total_loss=tensor(0.0191, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 03:34:21.775498: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:34:22.178574: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 4: 100%|██████████| 3923/3923 [00:46<00:00, 85.01it/s, data=val, loss=0.0183, total_loss=tensor(0.0196, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 03:35:07.348033: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:35:07.710831: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 5: 100%|██████████| 34745/34745 [06:25<00:00, 90.03it/s, data=train, loss=0.0256, total_loss=tensor(0.0190, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 03:41:33.856786: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:41:34.211883: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 5: 100%|██████████| 3923/3923 [00:45<00:00, 86.22it/s, data=val, loss=0.013, total_loss=tensor(0.0202, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 03:42:18.793466: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:42:19.153252: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 6: 100%|██████████| 34745/34745 [06:01<00:00, 96.10it/s, data=train, loss=0.0218, total_loss=tensor(0.0189, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 03:48:21.083272: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:48:21.454720: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 6: 100%|██████████| 3923/3923 [00:46<00:00, 84.92it/s, data=val, loss=0.0148, total_loss=tensor(0.0194, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 03:49:06.607167: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:49:06.964020: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 7: 100%|██████████| 34745/34745 [05:54<00:00, 98.15it/s, data=train, loss=0.0269, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 03:55:01.316345: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:55:01.677792: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 7: 100%|██████████| 3923/3923 [00:45<00:00, 86.39it/s, data=val, loss=0.0335, total_loss=tensor(0.0195, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 03:55:46.102306: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 03:55:46.460884: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 8: 100%|██████████| 34745/34745 [06:05<00:00, 95.11it/s, data=train, loss=0.00936, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 04:01:52.044233: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:01:52.414051: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 8: 100%|██████████| 3923/3923 [00:54<00:00, 72.33it/s, data=val, loss=0.0382, total_loss=tensor(0.0197, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 04:02:45.691097: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:02:46.042035: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 9: 100%|██████████| 34745/34745 [05:52<00:00, 98.49it/s, data=train, loss=0.0241, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 04:08:39.271725: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:08:39.628809: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 9: 100%|██████████| 3923/3923 [00:45<00:00, 85.86it/s, data=val, loss=0.0145, total_loss=tensor(0.0193, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 04:09:24.242591: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:09:24.615071: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 10: 100%|██████████| 34745/34745 [05:47<00:00, 99.88it/s, data=train, loss=0.0222, total_loss=tensor(0.0186, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 04:15:12.757868: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:15:13.119255: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 10: 100%|██████████| 3923/3923 [00:45<00:00, 86.28it/s, data=val, loss=0.0175, total_loss=tensor(0.0194, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 04:15:57.650710: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:15:58.009587: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 11: 100%|██████████| 34745/34745 [05:47<00:00, 100.00it/s, data=train, loss=0.0156, total_loss=tensor(0.0186, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 04:21:45.780528: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:21:46.137995: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 11: 100%|██████████| 3923/3923 [00:46<00:00, 85.09it/s, data=val, loss=0.0243, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 04:22:31.248220: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:22:31.609145: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 12: 100%|██████████| 34745/34745 [05:46<00:00, 100.39it/s, data=train, loss=0.0146, total_loss=tensor(0.0186, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 04:28:18.083767: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:28:18.444695: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 12: 100%|██████████| 3923/3923 [00:45<00:00, 86.51it/s, data=val, loss=0.0111, total_loss=tensor(0.0190, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 04:29:02.785892: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:29:03.146621: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 13: 100%|██████████| 34745/34745 [05:44<00:00, 100.76it/s, data=train, loss=0.0195, total_loss=tensor(0.0185, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 04:34:48.175316: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:34:48.535578: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 13: 100%|██████████| 3923/3923 [00:45<00:00, 85.96it/s, data=val, loss=0.0116, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 04:35:33.331159: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:35:33.697668: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 14: 100%|██████████| 34745/34745 [05:47<00:00, 99.87it/s, data=train, loss=0.0136, total_loss=tensor(0.0185, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 04:41:21.757258: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:41:22.139744: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 14: 100%|██████████| 3923/3923 [00:45<00:00, 87.11it/s, data=val, loss=0.0105, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 04:42:06.385062: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:42:06.751566: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 15: 100%|██████████| 34745/34745 [05:47<00:00, 100.08it/s, data=train, loss=0.017, total_loss=tensor(0.0185, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 04:47:53.997155: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:47:54.361107: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 15: 100%|██████████| 3923/3923 [00:45<00:00, 86.51it/s, data=val, loss=0.00957, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 04:48:38.913871: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:48:39.274845: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 16: 100%|██████████| 34745/34745 [05:46<00:00, 100.24it/s, data=train, loss=0.0263, total_loss=tensor(0.0185, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 04:54:26.064767: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:54:26.431410: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 16: 100%|██████████| 3923/3923 [00:45<00:00, 86.92it/s, data=val, loss=0.0326, total_loss=tensor(0.0190, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 04:55:10.694245: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 04:55:11.051661: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 17: 100%|██████████| 34745/34745 [05:48<00:00, 99.64it/s, data=train, loss=0.00988, total_loss=tensor(0.0184, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 05:00:59.954928: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:01:00.328234: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 17: 100%|██████████| 3923/3923 [00:45<00:00, 86.10it/s, data=val, loss=0.0137, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 05:01:45.042695: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:01:45.409525: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 18: 100%|██████████| 34745/34745 [05:46<00:00, 100.22it/s, data=train, loss=0.00942, total_loss=tensor(0.0185, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 05:07:32.270326: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:07:32.625510: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 18: 100%|██████████| 3923/3923 [00:44<00:00, 87.29it/s, data=val, loss=0.0365, total_loss=tensor(0.0189, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 05:08:16.781472: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:08:17.139287: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 19: 100%|██████████| 34745/34745 [05:44<00:00, 100.82it/s, data=train, loss=0.0106, total_loss=tensor(0.0185, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 05:14:01.892717: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:14:02.258813: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 19: 100%|██████████| 3923/3923 [00:45<00:00, 86.79it/s, data=val, loss=0.0175, total_loss=tensor(0.0189, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 05:14:46.628165: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:14:46.994403: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 20: 100%|██████████| 34745/34745 [05:49<00:00, 99.48it/s, data=train, loss=0.0232, total_loss=tensor(0.0184, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 05:20:36.437807: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:20:36.793328: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 20: 100%|██████████| 3923/3923 [00:45<00:00, 86.20it/s, data=val, loss=0.0106, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 05:21:21.462138: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:21:21.837693: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 21: 100%|██████████| 34745/34745 [05:47<00:00, 99.97it/s, data=train, loss=0.0093, total_loss=tensor(0.0184, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 05:27:09.541053: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:27:09.901496: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 21: 100%|██████████| 3923/3923 [00:45<00:00, 86.59it/s, data=val, loss=0.0312, total_loss=tensor(0.0190, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 05:27:54.384050: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:27:54.745577: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 22: 100%|██████████| 34745/34745 [05:44<00:00, 100.86it/s, data=train, loss=0.02, total_loss=tensor(0.0184, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 05:33:39.374426: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:33:39.748958: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 22: 100%|██████████| 3923/3923 [00:44<00:00, 88.04it/s, data=val, loss=0.0169, total_loss=tensor(0.0186, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 05:34:23.451550: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:34:23.811909: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 23: 100%|██████████| 34745/34745 [05:49<00:00, 99.49it/s, data=train, loss=0.0177, total_loss=tensor(0.0183, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 05:40:13.248852: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:40:13.605928: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 23: 100%|██████████| 3923/3923 [00:45<00:00, 86.55it/s, data=val, loss=0.0145, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 05:40:58.081903: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:40:58.442163: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 24: 100%|██████████| 34745/34745 [05:45<00:00, 100.45it/s, data=train, loss=0.0219, total_loss=tensor(0.0184, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 05:46:44.564164: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:46:44.927812: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 24: 100%|██████████| 3923/3923 [00:45<00:00, 86.41it/s, data=val, loss=0.0107, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 05:47:29.466187: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:47:29.827274: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 25: 100%|██████████| 34745/34745 [05:48<00:00, 99.81it/s, data=train, loss=0.011, total_loss=tensor(0.0183, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 05:53:18.106719: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:53:18.470043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 25: 100%|██████████| 3923/3923 [00:45<00:00, 86.09it/s, data=val, loss=0.0309, total_loss=tensor(0.0190, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 05:54:03.171942: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:54:03.559799: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 26: 100%|██████████| 34745/34745 [05:47<00:00, 100.10it/s, data=train, loss=0.0082, total_loss=tensor(0.0183, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 05:59:50.760780: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 05:59:51.125149: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 26: 100%|██████████| 3923/3923 [00:44<00:00, 88.87it/s, data=val, loss=0.0117, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 06:00:34.511813: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:00:34.880398: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 27: 100%|██████████| 34745/34745 [05:47<00:00, 100.03it/s, data=train, loss=0.0144, total_loss=tensor(0.0183, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 06:06:22.405445: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:06:22.761136: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 27: 100%|██████████| 3923/3923 [00:45<00:00, 86.81it/s, data=val, loss=0.0158, total_loss=tensor(0.0192, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 06:07:07.082308: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:07:07.438425: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 28: 100%|██████████| 34745/34745 [05:48<00:00, 99.83it/s, data=train, loss=0.024, total_loss=tensor(0.0183, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 06:12:55.647953: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:12:56.005242: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 28: 100%|██████████| 3923/3923 [00:44<00:00, 87.35it/s, data=val, loss=0.0197, total_loss=tensor(0.0189, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 06:13:40.092762: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:13:40.454566: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 29: 100%|██████████| 34745/34745 [05:47<00:00, 99.95it/s, data=train, loss=0.0216, total_loss=tensor(0.0183, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 06:19:28.253135: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:19:28.612863: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 29: 100%|██████████| 3923/3923 [00:45<00:00, 86.96it/s, data=val, loss=0.0115, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 06:20:12.893574: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:20:13.251394: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 30: 100%|██████████| 34745/34745 [05:46<00:00, 100.39it/s, data=train, loss=0.0149, total_loss=tensor(0.0183, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 06:25:59.545705: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:25:59.903526: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 30: 100%|██████████| 3923/3923 [00:44<00:00, 87.32it/s, data=val, loss=0.0112, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 06:26:44.003205: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:26:44.357246: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 31: 100%|██████████| 34745/34745 [05:45<00:00, 100.45it/s, data=train, loss=0.0227, total_loss=tensor(0.0182, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 06:32:30.378379: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:32:30.745527: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 31: 100%|██████████| 3923/3923 [00:45<00:00, 87.11it/s, data=val, loss=0.0112, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 06:33:14.950502: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:33:15.319831: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 32: 100%|██████████| 34745/34745 [05:47<00:00, 99.98it/s, data=train, loss=0.0102, total_loss=tensor(0.0182, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 06:39:02.976813: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:39:03.337645: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 32: 100%|██████████| 3923/3923 [00:45<00:00, 86.15it/s, data=val, loss=0.0255, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 06:39:48.039678: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:39:48.396160: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 33: 100%|██████████| 34745/34745 [05:41<00:00, 101.66it/s, data=train, loss=0.0152, total_loss=tensor(0.0182, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 06:45:30.359827: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:45:30.722165: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 33: 100%|██████████| 3923/3923 [00:46<00:00, 83.51it/s, data=val, loss=0.00994, total_loss=tensor(0.0186, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 06:46:17.002531: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:46:17.379392: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 34: 100%|██████████| 34745/34745 [05:48<00:00, 99.68it/s, data=train, loss=0.00833, total_loss=tensor(0.0182, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 06:52:06.006578: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:52:06.364217: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 34: 100%|██████████| 3923/3923 [00:45<00:00, 86.17it/s, data=val, loss=0.0114, total_loss=tensor(0.0191, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 06:52:51.046484: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:52:51.404648: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 35: 100%|██████████| 34745/34745 [05:52<00:00, 98.55it/s, data=train, loss=0.00797, total_loss=tensor(0.0182, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 06:58:44.141848: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:58:44.529173: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 35: 100%|██████████| 3923/3923 [00:42<00:00, 93.09it/s, data=val, loss=0.0307, total_loss=tensor(0.0193, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 06:59:25.829211: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 06:59:26.191184: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 36: 100%|██████████| 34745/34745 [05:50<00:00, 99.00it/s, data=train, loss=0.0195, total_loss=tensor(0.0182, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 07:05:17.297647: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:05:17.659095: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 36: 100%|██████████| 3923/3923 [00:45<00:00, 86.35it/s, data=val, loss=0.0125, total_loss=tensor(0.0190, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 07:06:02.231189: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:06:02.592081: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 37: 100%|██████████| 34745/34745 [05:49<00:00, 99.39it/s, data=train, loss=0.0177, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 07:11:52.345481: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:11:52.703159: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 37: 100%|██████████| 3923/3923 [00:45<00:00, 85.52it/s, data=val, loss=0.0112, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 07:12:37.732892: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:12:38.091992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 38: 100%|██████████| 34745/34745 [05:48<00:00, 99.63it/s, data=train, loss=0.0183, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 07:18:26.994824: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:18:27.368693: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 38: 100%|██████████| 3923/3923 [00:45<00:00, 86.54it/s, data=val, loss=0.0252, total_loss=tensor(0.0189, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 07:19:11.872691: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:19:12.231163: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 39: 100%|██████████| 34745/34745 [05:46<00:00, 100.22it/s, data=train, loss=0.0114, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 07:24:59.118436: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:24:59.487342: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 39: 100%|██████████| 3923/3923 [00:45<00:00, 86.48it/s, data=val, loss=0.023, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 07:25:43.986003: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:25:44.339572: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 40: 100%|██████████| 34745/34745 [05:45<00:00, 100.47it/s, data=train, loss=0.024, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 07:31:30.307687: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:31:30.669892: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 40: 100%|██████████| 3923/3923 [00:45<00:00, 85.45it/s, data=val, loss=0.0351, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 07:32:15.817718: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:32:16.193847: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 41: 100%|██████████| 34745/34745 [05:53<00:00, 98.40it/s, data=train, loss=0.0187, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 07:38:09.404435: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:38:09.767730: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 41: 100%|██████████| 3923/3923 [00:45<00:00, 86.84it/s, data=val, loss=0.012, total_loss=tensor(0.0192, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 07:38:54.091163: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:38:54.451070: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 42: 100%|██████████| 34745/34745 [06:00<00:00, 96.29it/s, data=train, loss=0.017, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 07:44:55.476637: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:44:55.838091: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 42: 100%|██████████| 3923/3923 [00:45<00:00, 86.63it/s, data=val, loss=0.0154, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 07:45:40.270006: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:45:40.644731: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 43: 100%|██████████| 34745/34745 [06:28<00:00, 89.50it/s, data=train, loss=0.0149, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 07:52:08.996133: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:52:09.354278: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 43: 100%|██████████| 3923/3923 [01:01<00:00, 64.04it/s, data=val, loss=0.0104, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 07:53:09.797629: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:53:10.175856: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 44: 100%|██████████| 34745/34745 [06:17<00:00, 91.92it/s, data=train, loss=0.0238, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 07:59:28.428710: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 07:59:28.786410: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 44: 100%|██████████| 3923/3923 [01:01<00:00, 64.21it/s, data=val, loss=0.0329, total_loss=tensor(0.0189, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 08:00:28.969921: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:00:29.329036: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 45: 100%|██████████| 34745/34745 [06:30<00:00, 88.98it/s, data=train, loss=0.0136, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 08:06:59.967593: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:07:00.319566: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 45: 100%|██████████| 3923/3923 [00:45<00:00, 86.31it/s, data=val, loss=0.0112, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 08:07:45.041107: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:07:45.413888: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 46: 100%|██████████| 34745/34745 [06:38<00:00, 87.20it/s, data=train, loss=0.0249, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 08:14:23.813655: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:14:24.174117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 46: 100%|██████████| 3923/3923 [00:45<00:00, 87.06it/s, data=val, loss=0.0115, total_loss=tensor(0.0191, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 08:15:08.518389: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:15:08.881743: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 47: 100%|██████████| 34745/34745 [06:33<00:00, 88.28it/s, data=train, loss=0.0277, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 08:21:42.735854: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:21:43.098443: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 47: 100%|██████████| 3923/3923 [00:44<00:00, 87.26it/s, data=val, loss=0.0105, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 08:22:27.151685: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:22:27.511305: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 48: 100%|██████████| 34745/34745 [06:13<00:00, 92.90it/s, data=train, loss=0.0104, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 08:28:41.662485: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:28:42.025468: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 48: 100%|██████████| 3923/3923 [00:44<00:00, 88.17it/s, data=val, loss=0.011, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 08:29:25.712804: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:29:26.067280: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 49: 100%|██████████| 34745/34745 [06:04<00:00, 95.37it/s, data=train, loss=0.012, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 08:35:30.566971: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:35:30.921589: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 49: 100%|██████████| 3923/3923 [00:45<00:00, 86.32it/s, data=val, loss=0.0252, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 08:36:15.549136: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:36:15.906519: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 50: 100%|██████████| 34745/34745 [06:12<00:00, 93.29it/s, data=train, loss=0.0247, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 08:42:28.504419: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:42:28.867100: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 50: 100%|██████████| 3923/3923 [00:45<00:00, 87.13it/s, data=val, loss=0.0256, total_loss=tensor(0.0185, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 08:43:13.090581: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:43:13.446289: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 51: 100%|██████████| 34745/34745 [06:42<00:00, 86.40it/s, data=train, loss=0.0205, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 08:49:55.666655: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:49:56.031361: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 51: 100%|██████████| 3923/3923 [01:00<00:00, 65.18it/s, data=val, loss=0.0114, total_loss=tensor(0.0185, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 08:50:55.478379: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:50:55.839242: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 52: 100%|██████████| 34745/34745 [06:17<00:00, 91.93it/s, data=train, loss=0.00815, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 08:57:14.125760: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:57:14.483851: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 52: 100%|██████████| 3923/3923 [01:01<00:00, 64.27it/s, data=val, loss=0.0207, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 08:58:14.484880: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 08:58:14.844480: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 53: 100%|██████████| 34745/34745 [06:26<00:00, 89.97it/s, data=train, loss=0.0197, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 09:04:41.255651: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:04:41.626766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 53: 100%|██████████| 3923/3923 [00:45<00:00, 86.85it/s, data=val, loss=0.0304, total_loss=tensor(0.0186, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 09:05:25.958907: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:05:26.313519: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 54: 100%|██████████| 34745/34745 [06:33<00:00, 88.26it/s, data=train, loss=0.0108, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 09:12:00.042673: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:12:00.395444: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 54: 100%|██████████| 3923/3923 [00:44<00:00, 87.52it/s, data=val, loss=0.0165, total_loss=tensor(0.0183, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 09:12:44.475274: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:12:44.830764: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 55: 100%|██████████| 34745/34745 [06:27<00:00, 89.65it/s, data=train, loss=0.00882, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 09:19:12.625971: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:19:12.997783: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 55: 100%|██████████| 3923/3923 [00:46<00:00, 83.99it/s, data=val, loss=0.0279, total_loss=tensor(0.0186, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 09:19:58.820311: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:19:59.196430: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 56: 100%|██████████| 34745/34745 [06:50<00:00, 84.69it/s, data=train, loss=0.0194, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 09:26:49.664949: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:26:50.019663: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 56: 100%|██████████| 3923/3923 [00:50<00:00, 77.16it/s, data=val, loss=0.0103, total_loss=tensor(0.0186, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 09:27:40.005664: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:27:40.360814: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 57: 100%|██████████| 34745/34745 [06:49<00:00, 84.80it/s, data=train, loss=0.013, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 09:34:30.235394: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:34:30.609337: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 57: 100%|██████████| 3923/3923 [00:51<00:00, 76.31it/s, data=val, loss=0.0271, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 09:35:21.226409: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:35:21.588267: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 58: 100%|██████████| 34745/34745 [07:03<00:00, 81.95it/s, data=train, loss=0.0131, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 09:42:25.695946: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:42:26.054607: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 58: 100%|██████████| 3923/3923 [01:01<00:00, 64.22it/s, data=val, loss=0.0292, total_loss=tensor(0.0185, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 09:43:26.330387: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:43:26.682911: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 59: 100%|██████████| 34745/34745 [06:45<00:00, 85.78it/s, data=train, loss=0.00961, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 09:50:11.847785: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:50:12.218968: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 59: 100%|██████████| 3923/3923 [01:00<00:00, 64.56it/s, data=val, loss=0.0327, total_loss=tensor(0.0185, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 09:51:12.213156: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:51:12.581037: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 60: 100%|██████████| 34745/34745 [06:30<00:00, 88.93it/s, data=train, loss=0.018, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 09:57:43.591158: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:57:43.960257: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 60: 100%|██████████| 3923/3923 [01:01<00:00, 64.19it/s, data=val, loss=0.0158, total_loss=tensor(0.0189, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 09:58:44.109452: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 09:58:44.470234: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 61: 100%|██████████| 34745/34745 [06:35<00:00, 87.78it/s, data=train, loss=0.0233, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 10:05:20.339332: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:05:20.699148: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 61: 100%|██████████| 3923/3923 [00:45<00:00, 86.32it/s, data=val, loss=0.0129, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 10:06:05.460073: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:06:05.827615: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 62: 100%|██████████| 34745/34745 [06:23<00:00, 90.57it/s, data=train, loss=0.0226, total_loss=tensor(0.0180, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 10:12:29.628246: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:12:29.985097: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 62: 100%|██████████| 3923/3923 [00:45<00:00, 85.92it/s, data=val, loss=0.0108, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 10:13:14.822866: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:13:15.183548: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 63: 100%|██████████| 34745/34745 [06:40<00:00, 86.75it/s, data=train, loss=0.0139, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 10:19:55.782853: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:19:56.144815: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 63: 100%|██████████| 3923/3923 [00:52<00:00, 74.47it/s, data=val, loss=0.0223, total_loss=tensor(0.0188, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 10:20:48.079821: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:20:48.440053: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 64: 100%|██████████| 34745/34745 [06:43<00:00, 86.06it/s, data=train, loss=0.022, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 10:27:32.447605: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:27:32.804174: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 64: 100%|██████████| 3923/3923 [01:01<00:00, 64.07it/s, data=val, loss=0.011, total_loss=tensor(0.0184, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 10:28:33.085028: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:28:33.446605: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 65: 100%|██████████| 34745/34745 [06:30<00:00, 89.01it/s, data=train, loss=0.0114, total_loss=tensor(0.0180, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 10:35:03.859637: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:35:04.228049: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 65: 100%|██████████| 3923/3923 [00:45<00:00, 86.24it/s, data=val, loss=0.0116, total_loss=tensor(0.0185, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 10:35:49.017364: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:35:49.380600: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 66: 100%|██████████| 34745/34745 [06:15<00:00, 92.45it/s, data=train, loss=0.0217, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 10:42:05.347476: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:42:05.701611: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 66: 100%|██████████| 3923/3923 [00:45<00:00, 85.44it/s, data=val, loss=0.0106, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 10:42:50.862541: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:42:51.222043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 67: 100%|██████████| 34745/34745 [06:37<00:00, 87.39it/s, data=train, loss=0.0133, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 10:49:28.866956: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:49:29.228244: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 67: 100%|██████████| 3923/3923 [00:58<00:00, 67.42it/s, data=val, loss=0.0117, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 10:50:26.695626: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:50:27.055129: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 68: 100%|██████████| 34745/34745 [06:23<00:00, 90.66it/s, data=train, loss=0.0245, total_loss=tensor(0.0180, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 10:56:50.529100: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:56:50.884244: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 68: 100%|██████████| 3923/3923 [00:53<00:00, 72.79it/s, data=val, loss=0.0317, total_loss=tensor(0.0185, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 10:57:43.909986: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 10:57:44.266961: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 69: 100%|██████████| 34745/34745 [06:28<00:00, 89.40it/s, data=train, loss=0.0162, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 11:04:12.995925: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 11:04:13.360089: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 69: 100%|██████████| 3923/3923 [00:58<00:00, 67.34it/s, data=val, loss=0.0127, total_loss=tensor(0.0184, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 11:05:10.811977: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 11:05:11.173460: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 70: 100%|██████████| 34745/34745 [06:43<00:00, 86.20it/s, data=train, loss=0.0143, total_loss=tensor(0.0180, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 11:11:54.540140: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 11:11:54.899222: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 70: 100%|██████████| 3923/3923 [00:57<00:00, 67.89it/s, data=val, loss=0.0287, total_loss=tensor(0.0186, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 11:12:51.734269: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 11:12:52.089057: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 71: 100%|██████████| 34745/34745 [07:05<00:00, 81.56it/s, data=train, loss=0.0186, total_loss=tensor(0.0181, device='cuda:0')]
+  0%|          | 0/3923 [00:00<?, ?it/s]2022-07-01 11:19:58.337131: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 11:19:58.710454: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+Epoch 71: 100%|██████████| 3923/3923 [01:03<00:00, 62.11it/s, data=val, loss=0.00911, total_loss=tensor(0.0187, device='cuda:0')]
+  0%|          | 0/34745 [00:00<?, ?it/s]2022-07-01 11:21:01.009032: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-01 11:21:01.386102: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 5488 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3070 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6

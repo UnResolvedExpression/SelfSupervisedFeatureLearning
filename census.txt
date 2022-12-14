@@ -1,0 +1,3 @@
+The goal is to get the teacher model to take an input and provide a masked version
+this will maximise loss for the student
+the student will then take this new input, and try to construct the original input
